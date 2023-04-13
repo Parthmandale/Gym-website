@@ -1,0 +1,122 @@
+body{
+  
+   
+    font-family: 'Sedgwick Ave Display', cursive;
+} 
+
+
+header{
+    background: url('https://media.istockphoto.com/id/1430943421/photo/strong-wellness-couple-doing-kettlebell-weight-exercise-workout-or-training-inside-a-gym.jpg?b=1&s=170667a&w=0&k=20&c=pl-i6DfogvY3W0tpUBRZGpMjXajyDSfFMv9nh2HWURI=') no-repeat center center/cover ;
+position: absolute;
+width: 100%;
+height: 100%;
+
+top: 0px;
+left: 0px;
+/* opacity: 0.5; */
+z-index: -1;
+}
+
+
+.left {
+
+    /* border: 2px solid rgb(165, 0, 0); */
+    display: inline-block;
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    ;
+}
+
+.mid {
+    /* border: 2px solid rgb(197, 0, 177); */
+    display: block;
+    width: 54%;
+    margin: 20px auto;
+   
+}
+
+.right {
+    /* border: 2px solid grey; */
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 27px;
+    padding: 10px;
+}
+
+.navbar li {
+    display: inline-block;
+
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: grey;
+    text-decoration: underline;
+}
+
+.left img {
+    width: 130px;
+}
+
+.left div {
+    text-align: center;
+}
+
+.btn {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font: bold;
+    margin: 3px 36 px;
+    cursor: pointer;
+    padding: 4px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: gray;
+}
+
+.container {
+    border: 2px solid black;
+    /* margin: 139px 139px; */
+    position: absolute;
+    left: 509px;
+    top: 337px;
+    width: 455px;
+    padding: 25px;
+    border-radius: 10px;
+    height: 288px;
+
+}
+
+
+.container {
+    text-align: center;
+}
+
+input{
+    font-family: 'Sedgwick Ave Display', cursive;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 5px;
+    width: 300px;
+}
+.sub{
+    font-family: 'Sedgwick Ave Display', cursive;
+    
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px 3px;
+    padding: 13px;
+}
